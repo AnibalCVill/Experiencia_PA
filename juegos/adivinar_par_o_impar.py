@@ -1,5 +1,6 @@
 import random
-def adivinar_par_o_impar(respuesta):
+def adivinar_par_o_impar():
+    respuesta=input("Escoge, par o impar?")
     a=random.randint(0,10)
     respuesta=respuesta.lower()
     if respuesta=="par":
@@ -12,5 +13,3 @@ def adivinar_par_o_impar(respuesta):
             print("Incorrecto :c El numero es:",a)
         else:
             print("Correcto! El numero es:",a)
-respuesta=input("Escoge, par o impar?")
-adivinar_par_o_impar(respuesta)
