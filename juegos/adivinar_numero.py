@@ -4,7 +4,7 @@ def adivinar_numero():
     num=randint(1,10)
 
     print("Ingrese su numero")
-    numero_ingresar = input()
+    numero_ingresar = int(input())
     if numero_ingresar == num:
         print("Felicidades, adivinaste el numero")
     else:
