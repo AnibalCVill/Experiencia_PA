@@ -21,4 +21,4 @@ def cachipun():
             print(f'Perdiste, la computadora eligio {comp}')
         else:
             print(f'Ganaste, la computadora eligio {comp}')
-    pass
+    
